@@ -1,4 +1,4 @@
-package com.example.listadorepositorios_recyclerview.model
+package com.example.listadorepositorios_recyclerview
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.listadorepositorios_recyclerview.R
+import com.example.listadorepositorios_recyclerview.model.Repositorio
 import com.squareup.picasso.Picasso
 
 class AdaptadorRepositorio (private val repositorios: MutableList<Repositorio>): RecyclerView.Adapter<AdaptadorRepositorio.ViewHolder>(){
