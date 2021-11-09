@@ -18,7 +18,7 @@ data class Repositorio(
     )
 }
 
-fun Respuesta_Repositorios.aRepositorio():{
+fun Respuesta_Repositorios.aRepositorio():Repositorio{
     return Repositorio(
         this.name,
         this.owner.avatarURL,
